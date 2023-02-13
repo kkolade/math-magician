@@ -81,6 +81,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
+<pre>git clone git@github.com:kkolade/math-magician.git</pre>
 <!--
 Example commands:
 
@@ -107,17 +108,13 @@ Example command:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+<pre>npm run start</pre>
 
 ### Run tests
 
 To run tests, run the following command:
+
+<pre>npm run test</pre>
 
 <!--
 Example command:
