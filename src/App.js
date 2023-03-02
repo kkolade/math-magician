@@ -7,11 +7,16 @@ function App() {
   return (
     <div className="App">
       <>
-        <nav>
-          <ul>
-            <li>
+        <nav className="navbar">
+          <h1 className="site-title">Math-Magicians</h1>
+          <ul className="links">
+            <li className="link-item">
               <Link to="/">Home</Link>
+            </li>
+            <li className="link-item">
               <Link to="/calculator">Calculator</Link>
+            </li>
+            <li className="link-item">
               <Link to="/quotes">Quotes</Link>
             </li>
           </ul>
@@ -22,7 +27,6 @@ function App() {
           <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </>
-      {/* <Calculator initialValue={0} /> */}
     </div>
   );
 }
