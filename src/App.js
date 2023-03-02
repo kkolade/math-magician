@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import Calculator from './components/Calculator';
+import CalcPage from './Pages/CalcPage';
 import Home from './Pages/Home';
 import Quotes from './Pages/Quotes';
 
@@ -23,7 +23,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/calculator" element={<CalcPage />} />
           <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </>
