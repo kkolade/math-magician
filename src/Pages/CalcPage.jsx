@@ -1,12 +1,14 @@
 import React from 'react';
 import Calculator from '../components/Calculator';
+import './calc-page.css';
 
 function CalcPage() {
   return (
-    <div>
+    <div className="page-content">
       <h2 className="headline">
-        let
-        <span>&apos;</span>s do some math!
+        <span>Let</span>
+        <span>&apos;</span>
+        <span>s do some math!</span>
       </h2>
       <Calculator />
     </div>

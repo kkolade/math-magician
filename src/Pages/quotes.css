@@ -1,0 +1,10 @@
+.quote-page-content {
+  margin: 7rem auto;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 1rem;
+}
