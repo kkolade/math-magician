@@ -1,9 +1,10 @@
 import React from 'react';
+import './home.css';
 
 function Home() {
   return (
     <div>
-      <h1 className="headline">Welcome to Our Page!</h1>
+      <h2 className="headline">Welcome to Our Page!</h2>
       <article className="article">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat

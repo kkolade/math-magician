@@ -1,4 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
+import './app.css';
 import CalcPage from './Pages/CalcPage';
 import Home from './Pages/Home';
 import Quotes from './Pages/Quotes';
@@ -11,13 +12,19 @@ function App() {
           <h1 className="site-title">Math-Magicians</h1>
           <ul className="links">
             <li className="link-item">
-              <Link to="/">Home</Link>
+              <Link to="/" className="link">
+                Home
+              </Link>
             </li>
             <li className="link-item">
-              <Link to="/calculator">Calculator</Link>
+              <Link to="/calculator" className="link">
+                Calculator
+              </Link>
             </li>
             <li className="link-item">
-              <Link to="/quotes">Quotes</Link>
+              <Link to="/quotes" className="link">
+                Quotes
+              </Link>
             </li>
           </ul>
         </nav>
