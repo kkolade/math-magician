@@ -5,7 +5,7 @@ import Quotes from './Pages/Quotes';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <>
         <nav className="navbar">
           <h1 className="site-title">Math-Magicians</h1>

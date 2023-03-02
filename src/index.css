@@ -1,41 +1,30 @@
-* {
-  border: none;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+:root {
+  font-size: 10px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.calc-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0;
-  grid-row-gap: 0;
-  width: 50%;
-  margin: 50px auto;
-  height: 500px;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro' sans-serif;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: #444;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
-.display {
-  grid-area: 1 / 1 / 2 / 5;
-  background-color: #858693;
-  color: #fff;
-  text-align: right;
-  padding: 0 15px;
-  font-size: 3rem;
-}
-
-.zero {
-  grid-area: 6 / 1 / 7 / 3;
-}
-
-.operator {
-  background-color: #f5913e;
-}
-
-.calc-key {
-  background-color: #e0e0e0;
-}
-
-.zero,
-.operator,
-.calc-key {
-  margin: 1px;
+.container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4rem;
 }
