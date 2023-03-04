@@ -4,14 +4,15 @@ import './calculator.css';
 
 function Calculator() {
   const [result, setResult] = useState(0);
-
   const handleClick = (e) => {
     setResult((prevState) => calculate(prevState, e.target.innerText));
   };
 
   return (
     <div className="calc-container">
-      <div className="display">{result.next || result.total || 0}</div>
+      <div data-testId="display" className="display">
+        {result.next || result.total || 0}
+      </div>
       <button type="submit" className="calc-key" onClick={handleClick}>
         AC
       </button>
