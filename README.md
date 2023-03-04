@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [A live demo link will be added as soon as the app is completed and hosted](https://yourdeployedapplicationlink.com)
+- [The Math Magicians App](https://the-math-magician.onrender.com/quotes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,8 +159,7 @@ Feel free to check the [issues page](https://github.com/kkolade/math-magician/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please [buy me coffee](
-buymeacoffee.com/kolakolade) 🥤
+If you like this project please [buy me coffee](buymeacoffee.com/kolakolade) 🥤
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
