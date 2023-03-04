@@ -10,7 +10,7 @@ function Calculator() {
 
   return (
     <div className="calc-container">
-      <div data-testId="display" className="display">
+      <div data-testid="display" className="display">
         {result.next || result.total || 0}
       </div>
       <button type="submit" className="calc-key" onClick={handleClick}>

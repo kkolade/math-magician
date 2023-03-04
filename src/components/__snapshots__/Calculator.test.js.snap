@@ -6,7 +6,7 @@ exports[`Calculator component renders correctly 1`] = `
 >
   <div
     className="display"
-    data-testId="display"
+    data-testid="display"
   >
     0
   </div>

@@ -9,12 +9,18 @@ test('Calculator component renders correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
-test('clicking on the 7 button should display 7', () => {
-  const { getByText, getByTestId } = render(<Calculator />);
-  const display = getByTestId('display');
-  const button7 = getByText('7');
+test('adds 2 + 3 and displays 5', () => {
+  const { getByText, queryByTestId } = render(<Calculator />);
+  const display = queryByTestId('diplay');
+  const button2 = getByText('2');
+  const buttonPlus = getByText('+');
+  const button3 = getByText('3');
+  const buttonEquals = getByText('=');
 
-  fireEvent.click(button7);
+  fireEvent.click(button2);
+  fireEvent.click(buttonPlus);
+  fireEvent.click(button3);
+  fireEvent.click(buttonEquals);
 
-  expect(display.textContent).toBe('7');
+  expect(display.textContent).toBe('5');
 });
