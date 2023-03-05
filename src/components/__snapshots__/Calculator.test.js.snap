@@ -1,5 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+
 exports[`Calculator component renders correctly 1`] = `
 <div
   className="calc-container"
@@ -146,6 +147,7 @@ exports[`Calculator component renders correctly 1`] = `
 </div>
 `;
 
+
 exports[`Calculator renders correctly 1`] = `
 <div>
   <div
@@ -153,7 +155,9 @@ exports[`Calculator renders correctly 1`] = `
   >
     <div
       class="display"
+
       data-testid="display"
+
     >
       0
     </div>
