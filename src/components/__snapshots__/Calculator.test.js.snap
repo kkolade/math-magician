@@ -1,5 +1,153 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+
+exports[`Calculator component renders correctly 1`] = `
+<div
+  className="calc-container"
+>
+  <div
+    className="display"
+    data-testid="display"
+  >
+    0
+  </div>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    AC
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    +/-
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    %
+  </button>
+  <button
+    className="operator"
+    onClick={[Function]}
+    type="submit"
+  >
+    ÷
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    7
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    8
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    9
+  </button>
+  <button
+    className="operator"
+    onClick={[Function]}
+    type="submit"
+  >
+    x
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    4
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    5
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    6
+  </button>
+  <button
+    className="operator"
+    onClick={[Function]}
+    type="submit"
+  >
+    -
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    1
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    2
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    3
+  </button>
+  <button
+    className="operator"
+    onClick={[Function]}
+    type="submit"
+  >
+    +
+  </button>
+  <button
+    className="zero"
+    onClick={[Function]}
+    type="submit"
+  >
+    0
+  </button>
+  <button
+    className="calc-key"
+    onClick={[Function]}
+    type="submit"
+  >
+    .
+  </button>
+  <button
+    className="operator"
+    onClick={[Function]}
+    type="submit"
+  >
+    =
+  </button>
+</div>
+`;
+
+
 exports[`Calculator renders correctly 1`] = `
 <div>
   <div
@@ -7,6 +155,9 @@ exports[`Calculator renders correctly 1`] = `
   >
     <div
       class="display"
+
+      data-testid="display"
+
     >
       0
     </div>
