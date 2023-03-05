@@ -49,8 +49,6 @@ test('Calculator handles user input correctly', () => {
 });
 
 afterEach(cleanup);
-
-// import { fireEvent, render } from '@testing-library/react';
 // import React from 'react';
 // import renderer from 'react-test-renderer';
 // import Calculator from './Calculator';
